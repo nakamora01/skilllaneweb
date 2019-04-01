@@ -1,0 +1,149 @@
+header{
+    display:block;
+    padding-top:28px;
+    padding-bottom:28px;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+header .logo{
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    display: block;
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align: center;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30eec4+0,ffe24f+100 */
+    background: #30eec4; /* Old browsers */
+    background: -moz-linear-gradient(left, #30eec4 0%, #ffe24f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #30eec4 0%,#ffe24f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #30eec4 0%,#ffe24f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30eec4', endColorstr='#ffe24f',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+    padding-left:12px;
+    padding-right:12px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+}
+
+.home-news-container{
+    margin-top: 24px;
+}
+
+.news-item{
+    padding: 12px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.news-item img{
+    max-width:100%;
+    height: auto;
+}
+
+.news-item .news-title{
+    font-size: 24px;
+    color: #31cce3;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.news-item .news-excerpt{
+    color: #a5a5a5;
+}
+
+.news-container{
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-square{
+    display: inline-block;
+    width: 100%;
+    background: #5c5c5c;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-square.header-small {
+    font-size: 16px;
+}
+
+.header-square span {
+    display: inline-block;
+    width: 25px;
+    height: 48px;
+    background: #31cce3;
+    vertical-align: middle;
+}
+
+.header-square.header-small span {
+    height: 40px;
+}
+
+.header-square .header-text{
+    display: inline-block;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.news-row{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.news-row-title{
+    font-size:20px;
+    color: #31cce3;
+}
+
+.news-row-excerpt{
+    color: #a5a5a5;
+}
+
+.search-form-container{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.search-form{
+    display: inline-block;
+    width: 80%;
+}
+
+.hit-news-item{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.hit-news-title{
+    color: #31cce3;
+}
+
+.categories{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.categories a{
+    text-decoration: none;
+    color:#31cce3;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
